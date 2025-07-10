@@ -2,7 +2,7 @@
     margin: 0 auto;
     max-width: 1440px;
 }
-main{
+body{
     background-color: #f5f8ff;
 }
 
@@ -21,6 +21,12 @@ main{
     color: #4e47ff;
     font-weight: bold;
 }
+h2{
+    font-size: 42px;
+}
+.text-color{
+    color: #8d8e98;
+}
 
 /* Shared Styles */
 .common-button{
@@ -28,7 +34,7 @@ main{
     color: white;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 /* Header Section Styles */
@@ -62,4 +68,52 @@ nav{
 .banner-items h1{
     font-size: 50px;
     margin-bottom: 30px;
+}
+
+/* Action Section Styles */
+.action{
+    width: 1140px;
+    margin-top: 140px;
+    display: flex;
+}
+.action-left{
+    margin-left: 0px;
+    padding-top: 80px;
+    padding-right: 80px;
+}
+.action-right{
+    margin-right: 0px;
+}
+.action-left p{
+    font-size: 20px;
+}
+.action-left h2, p{
+    margin-bottom: 25px;
+}
+.action-right img{
+    border-radius: 30px;
+}
+
+/* Productive User Section Styles */
+.productive-user{
+    background-color: #e5e7ff;
+    width: 1140px;
+    margin-top: 140px;
+    border-radius: 30px;
+}
+.data{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.title{
+    text-align: center;
+    padding-top: 30px;
+}
+.data-subtitle{
+    font-size: 60px;
+}
+.data-text{
+    text-align: center;
+    margin-top: -10px;
 }
