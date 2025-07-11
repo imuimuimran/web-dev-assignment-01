@@ -117,3 +117,60 @@ nav{
     text-align: center;
     margin-top: -10px;
 }
+
+/* Get in Touch Styles */
+.get-in-touch{
+    width: 1140px;
+    margin-top: 90px;
+    display: flex;
+}
+.touch-text{
+    margin-left: 0px;
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+.touch-form{
+    margin-right: 0px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.touch-text h1{
+    font-size: 80px;
+}
+.touch-form input, textarea{
+    padding: 20px 200px 20px 30px;
+    border: none;
+    border-radius: 8px;
+}
+form input[type=submit]{
+    text-align: center;
+    padding: 20px 160px;
+}
+
+/* Footer Styles */
+footer{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.footer-heading{
+    font-size: 90px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-bottom: 0px;
+}
+.footer-menu{
+    width: 500px;
+}
+.footer-menu ul{
+    display: flex;
+}
+.footer-menu ul li{
+    list-style: none;
+}
+.footer-menu ul li a{
+    text-decoration: none;
+    color: #8d8e98;
+}
