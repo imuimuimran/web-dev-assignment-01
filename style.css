@@ -34,7 +34,12 @@ h2{
     color: white;
     padding: 10px 20px;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
+}
+.common-button:hover{
+    background-color: goldenrod;
+    color: black;
+    cursor: pointer;
 }
 
 /* Header Section Styles */
@@ -116,6 +121,48 @@ nav{
 .data-text{
     text-align: center;
     margin-top: -10px;
+}
+
+/* Users Section Styles */
+.users{
+    width: 1160px;
+    margin-top: 140px;
+}
+.heading{
+    text-align: center;
+}
+.review{
+    display: flex;
+    margin-top: 30px;
+}
+.card{
+    background-color: #fafcff;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 25px;
+}
+.card-text h3{
+    font-size: 20px;
+}
+.card-user{
+    display: flex;
+}
+.user-image{
+    margin-left: 0px;
+}
+.user-image img{
+    border-radius: 50%;
+}
+.user-info{
+    margin-left: -140px;
+}
+.user-info h6{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
+.user-info p{
+    color: #b3b3b3;
 }
 
 /* Get in Touch Styles */
